@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div>
+     <form name="calculate">
+        <label> 
+            <input type="radio" name="radiobuttons" value="1">
+            Легковые
+        </label>
+        <label>
+            <input type="radio" name="radiobuttons" value="0.7">
+            Электро
+        </label>
+        <label>
+            <input type="radio" name="radiobuttons" value="1.2">
+            Мото
+        </label>
+        <label>
+            <input type="radio" name="radiobuttons" value="3">
+            Грузовые
+        </label> 
+        <br>
+        <label>
+            Год выпуска
+            <input type="text" name="year">
+        </label>
+        <label>
+            Цена 
+            <input type="text" name="price">
+        </label>
+        <div>
+            Сумма  <span class="res"></span> грн.
+        </div>
+        <br>
+        <button class="btn-summ" type="submit">Расчитать</button>
+    </form>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
